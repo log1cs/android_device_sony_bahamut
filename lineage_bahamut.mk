@@ -24,7 +24,9 @@ PRODUCT_MODEL := Xperia 5
 PRODUCT_GMS_CLIENTID_BASE := android-sonymobile
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    TARGET_DEVICE=bahamut \
-    PRIVATE_BUILD_DESC="J9210-user 11 55.2.A.4.332 055002A 004033203408384484 release-keys"
-
-BUILD_FINGERPRINT := Sony/J9210/J9210:11/55.2.A.4.332/055002A004033203408384484:user/release-keys
+    BuildDesc="J9210-user 11 55.2.A.4.332 055002A 004033203408384484 release-keys"
+    BuildFingerprint=Sony/J9210/J9210:11/55.2.A.4.332/055002A004033203408384484:user/release-keys
+    DeviceName=bahamut \
+    DeviceProduct=bahamut \
+    SystemDevice=bahamut \
+    SystemName=bahamut
