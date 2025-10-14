@@ -1,3 +1,6 @@
+# All proprietary files from this list, unless pinned and noted otherwise, are
+# are from J9210 (55.2.A.4.332-R2C - Customized SEA).
+
 # ACDB Kumano
 vendor/etc/acdbdata/Sony_kumano_Bluetooth_cal.acdb
 vendor/etc/acdbdata/Sony_kumano_General_cal.acdb
