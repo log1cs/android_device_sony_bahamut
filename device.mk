@@ -4,8 +4,8 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-# Inherit from kumano
-$(call inherit-product, device/sony/kumano/kumano.mk)
+# Inherit from sm8150-common
+$(call inherit-product, device/sony/sm8150-common/common.mk)
 
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
